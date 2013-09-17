@@ -3,10 +3,12 @@
     "description": "Base files required for abstracted composer-compatible ZF1 components.",
     "version": "1.0",
     "homepage": "http://github.com/joegreen88/zf1-components-base",
+    "license": "MIT",
     "authors": [
         {
             "name": "Joe Green",
-            "email": "Joe.Green@hearst.co.uk"
+            "email": "Joe.Green@hearst.co.uk",
+            "type": "Developer"
         }
     ],
     "require": {
