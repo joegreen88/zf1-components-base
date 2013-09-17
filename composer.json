@@ -7,8 +7,7 @@
     "authors": [
         {
             "name": "Joe Green",
-            "email": "Joe.Green@hearst.co.uk",
-            "type": "Developer"
+            "email": "Joe.Green@hearst.co.uk"
         }
     ],
     "require": {
@@ -18,8 +17,9 @@
         "phpunit/phpunit": "3.7.20"
     },
     "autoload": {
-        "classmap": ["src/Zend/Exception.php"],
+        "classmap": ["src/Zend/Exception.php", "src/Zend/Loader.php"],
         "psr-0": {
+            "Zend_Loader": "src/",
 			"Tests\\Zend": ""
         }
     }
