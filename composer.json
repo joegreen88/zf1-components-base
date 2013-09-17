@@ -1,7 +1,7 @@
 {
     "name": "hearstuk/zf1-components-base",
     "description": "Base files required for abstracted composer-compatible ZF1 components.",
-    "version": "1.0",
+    "version": "1.1",
     "homepage": "http://github.com/joegreen88/zf1-components-base",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
         "phpunit/phpunit": "3.7.20"
     },
     "autoload": {
-        "classmap": ["src/Zend/Exception.php", "src/Zend/Loader.php", "src/Zend/Registry.php"],
+        "classmap": ["src/Zend/Exception.php", "src/Zend/Loader.php", "src/Zend/Registry.php", "src/Zend/Version.php"],
         "psr-0": {
             "Zend_Loader": "src/",
 			"Tests\\Zend": ""
