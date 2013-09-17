@@ -12,9 +12,4 @@ class ExceptionTest extends \Tests\TestCase
         $this->assertInstanceOf('\Zend_Exception', $exception);
         $this->assertInstanceOf('\Exception', $exception);
     }
-
-    public function testCanUseZendLoader()
-    {
-
-    }
 }

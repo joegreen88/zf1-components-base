@@ -17,7 +17,7 @@
         "phpunit/phpunit": "3.7.20"
     },
     "autoload": {
-        "classmap": ["src/Zend/Exception.php", "src/Zend/Loader.php"],
+        "classmap": ["src/Zend/Exception.php", "src/Zend/Loader.php", "src/Zend/Registry.php"],
         "psr-0": {
             "Zend_Loader": "src/",
 			"Tests\\Zend": ""
